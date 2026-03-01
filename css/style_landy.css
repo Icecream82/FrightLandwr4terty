@@ -1,0 +1,3152 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: robo-bold;
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+@font-face {
+  font-family: fright;
+  src: url(../fonts/Frightmare.ttf);
+}
+@font-face {
+  font-family: robo-reg;
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: robo-semi;
+  src: url(../fonts/RobotoSlab-SemiBold.ttf);
+}
+.container {
+  width: 1920px;
+  height: 100%;
+  background-color: #160D3B;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 1410px;
+  height: 86px;
+  padding-top: 54px;
+}
+
+.menu {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+.navi {
+  font-family: robo-bold;
+  font-size: 1.125em;
+  border: none;
+  color: #DBDEFF;
+  background: none;
+  margin-left: 49px;
+  letter-spacing: -2%;
+}
+
+.navi:hover {
+  cursor: pointer;
+}
+
+.contact {
+  font-family: robo-bold;
+  font-size: 1.125em;
+  border: none;
+  color: #DBDEFF;
+  background: none;
+  letter-spacing: -2%;
+}
+
+.contact:hover {
+  cursor: pointer;
+}
+
+.lef {
+  display: flex;
+  align-items: center;
+  margin-left: 254px;
+  width: 453px;
+  height: 40px;
+}
+
+.logo {
+  width: 194.47px;
+  height: 100.79px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.23px;
+  margin-left: 156px;
+}
+
+.log {
+  width: 194.47px;
+  height: 113.79px;
+}
+
+.prav {
+  display: flex;
+  align-items: center;
+  margin-top: -1px;
+  margin-left: 173.53px;
+  width: 434px;
+  height: 51px;
+}
+
+.sign {
+  border: 2px solid #164975;
+  border-radius: 21px;
+  background: none;
+  color: #DBDEFF;
+  font-size: 1em;
+  font-family: robo-bold;
+  width: 128px;
+  height: 51px;
+  margin-left: 48px;
+  text-decoration: none;
+  letter-spacing: -2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vhod {
+  margin-left: 8px;
+}
+
+.become {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  width: 182px;
+  height: 51px;
+  border-radius: 16px;
+  color: #DBDEFF;
+  font-size: 1em;
+  font-family: robo-bold;
+  background-color: #EC56C9;
+  margin-left: 11px;
+  position: relative;
+  letter-spacing: -2%;
+  background: linear-gradient(96.09deg, #EC56C9 0%, #9F2A7E 100%);
+  box-shadow: 0px 5px 50px rgba(192, 57, 161, 0.25), inset -2px -3px 0px #802366, inset 3px 2px 0px #E67ACD;
+}
+
+.user {
+  margin-left: 8px;
+}
+
+.ten {
+  margin-left: -137px;
+  position: absolute;
+  margin-top: -31px;
+}
+
+.ten2 {
+  margin-left: 134px;
+  position: absolute;
+  margin-top: 36px;
+}
+
+.sign:hover {
+  cursor: pointer;
+}
+
+.become:hover {
+  cursor: pointer;
+}
+
+.zamok {
+  margin-top: 40px;
+  position: relative;
+}
+
+.old {
+  width: 465px;
+  height: 184px;
+  background-color: #0B071E;
+  border-radius: 48px;
+  position: absolute;
+  margin-top: -735px;
+  margin-left: 273px;
+}
+
+.ten_old {
+  position: absolute;
+  margin-left: 157px;
+  margin-top: -3px;
+}
+
+.ten_old_niz {
+  position: absolute;
+  margin-left: 389px;
+  margin-top: 10px;
+}
+
+.old_img {
+  width: 136px;
+  height: 136px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.txt {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 2em;
+  margin-left: 184px;
+  margin-top: -126px;
+  letter-spacing: -2%;
+}
+
+.txt1 {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 0.875em;
+  margin-left: 184px;
+  margin-top: 2px;
+  letter-spacing: -2%;
+}
+
+.txt2 {
+  font-family: robo-semi;
+  color: #DC59C0;
+  font-size: 1.5em;
+  margin-left: 184px;
+  margin-top: 8px;
+  letter-spacing: -2%;
+}
+
+.txt3 {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 0.875em;
+  margin-left: 243px;
+  margin-top: -24px;
+  letter-spacing: -2%;
+}
+
+.txt4 {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 2em;
+  margin-left: 192px;
+  margin-top: -129px;
+  letter-spacing: -2%;
+}
+
+.txt5 {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 0.875em;
+  margin-left: 191px;
+  margin-top: 2px;
+  letter-spacing: -2%;
+}
+
+.txt6 {
+  font-family: robo-semi;
+  color: #DC59C0;
+  font-size: 1.5em;
+  margin-left: 192px;
+  margin-top: 9px;
+  letter-spacing: -2%;
+}
+
+.txt7 {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 0.875em;
+  margin-left: 249px;
+  margin-top: -25px;
+  letter-spacing: -2%;
+}
+
+.ocenka1 {
+  color: #211357;
+  font-size: 0.875em;
+  margin-top: 8px;
+  font-family: robo-reg;
+  margin-left: -4px;
+  letter-spacing: -2%;
+}
+
+.star1 {
+  width: 58px;
+  height: 34px;
+  background-color: #BDC1FF;
+  border-radius: 99px;
+  margin-left: 403px;
+  margin-top: -23px;
+  display: flex;
+}
+
+.star {
+  width: 66px;
+  height: 34px;
+  background-color: #BDC1FF;
+  border-radius: 99px;
+  margin-left: 375px;
+  margin-top: -24px;
+  display: flex;
+}
+
+.ocenka {
+  color: #211357;
+  font-size: 0.875em;
+  margin-top: 7px;
+  font-family: robo-reg;
+  margin-left: -4px;
+  letter-spacing: -2%;
+}
+
+.zvezda_old {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.zvezda_cellar {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.cellar {
+  width: 484px;
+  height: 184px;
+  background-color: #0B071E;
+  border-radius: 48px;
+  position: absolute;
+  margin-top: -546px;
+  margin-left: 1163px;
+}
+
+.ten_cellar_niz {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 10px;
+}
+
+.strelka1 {
+  margin-left: 404.76px;
+  margin-top: 38.86px;
+}
+
+.strelka2 {
+  margin-left: -40px;
+  margin-top: 22px;
+  width: 44.51px;
+  height: 43.12px;
+}
+
+.search {
+  width: 1410px;
+  height: 150px;
+  position: absolute;
+  border-radius: 55px;
+  margin-left: 246px;
+  margin-top: -161px;
+  border: 10px solid #654AFF;
+  display: flex;
+}
+
+.tikva {
+  margin-left: 228px;
+  margin-top: -61px;
+  width: 174px;
+  height: 85px;
+  position: absolute;
+}
+
+.kirpich {
+  position: absolute;
+  margin-left: 234px;
+}
+
+.ten_loc {
+  position: absolute;
+  margin-left: 134px;
+}
+
+.ten_level {
+  position: absolute;
+  margin-top: 72px;
+  margin-left: 184px;
+}
+
+.ten_serch {
+  position: absolute;
+  margin-bottom: 123px;
+  margin-left: 183px;
+}
+
+.left {
+  width: 1190px;
+  height: 150px;
+  background-color: #0B071E;
+  border-radius: 48px 30px 30px 48px;
+  position: relative;
+}
+
+.right {
+  width: 220px;
+  height: 151px;
+  background-color: #0B071E;
+  border-radius: 30px 48px 48px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_verh {
+  font-family: robo-reg;
+  color: #BDC1FF;
+  font-size: 0, 9375em;
+  margin-left: 37px;
+  letter-spacing: -2%;
+}
+
+.search_verh_date {
+  font-family: robo-reg;
+  color: #BDC1FF;
+  font-size: 1em;
+  margin-left: 441px;
+  letter-spacing: -2%;
+}
+
+.search_verh_peop {
+  font-family: robo-reg;
+  color: #BDC1FF;
+  font-size: 1em;
+  margin-left: 251px;
+  letter-spacing: -2%;
+}
+
+.search_verh_lev {
+  font-family: robo-reg;
+  color: #BDC1FF;
+  font-size: 1em;
+  margin-left: 53px;
+  letter-spacing: -2%;
+}
+
+.bol_ten_search {
+  position: absolute;
+  margin-top: 137px;
+}
+
+.verh {
+  display: flex;
+  margin-top: 31px;
+}
+
+.niz {
+  display: flex;
+  margin-top: 6px;
+}
+
+.search_niz {
+  border-radius: 15.05px;
+  margin-left: 36px;
+  background: url(../img/location.png) no-repeat center right;
+  background-color: #ffffff;
+  border: 1.41087px solid rgba(189, 193, 255, 0.5);
+  background-position: 20px;
+  padding-left: 53px;
+  width: 443px;
+  height: 60px;
+  padding-top: 2px;
+}
+
+.search_niz::-moz-placeholder {
+  font-size: 1rem;
+  font-family: robo-reg;
+  color: #160D3B;
+  letter-spacing: -2%;
+}
+
+.search_niz::placeholder {
+  font-size: 1rem;
+  font-family: robo-reg;
+  color: #160D3B;
+  letter-spacing: -2%;
+}
+
+.search_niz_date {
+  background-color: #ffffff;
+  border-radius: 15.05px;
+  margin-left: 5px;
+  background: url(../img/kalendar.png) no-repeat center right;
+  background-color: #ffffff;
+  border: 1.41087px solid #BDC1FF;
+  background-position: 20px;
+  padding-left: 53px;
+  width: 223px;
+  height: 60px;
+  padding-top: 2px;
+}
+
+.search_niz_date::-moz-placeholder {
+  font-size: 1rem;
+  font-family: robo-reg;
+  margin-top: 2px;
+  color: #160D3B;
+  letter-spacing: -2%;
+}
+
+.search_niz_date::placeholder {
+  font-size: 1rem;
+  font-family: robo-reg;
+  margin-top: 2px;
+  color: #160D3B;
+  letter-spacing: -2%;
+}
+
+.people {
+  width: 56px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 15.05px;
+  margin-left: 5px;
+  padding-left: 22px;
+  padding-top: 2px;
+}
+
+.people::-moz-placeholder {
+  font-size: 1rem;
+  font-family: robo-reg;
+  color: #160D3B;
+}
+
+.people::placeholder {
+  font-size: 1rem;
+  font-family: robo-reg;
+  color: #160D3B;
+}
+
+.level {
+  width: 188px;
+  height: 60px;
+  display: flex;
+  margin-left: 23px;
+  margin-top: 3px;
+}
+
+.mish {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.tikva1 {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.prizrak {
+  -o-object-fit: none;
+     object-fit: none;
+  margin-left: 4px;
+}
+
+.tikva_cras {
+  border: 3px solid #654AFF;
+  box-shadow: 2px 2px 2px #000000;
+  border-radius: 16px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.button {
+  position: relative;
+  width: 173px;
+  height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(97.14deg, rgba(255, 255, 255, 0) 19.45%, rgba(255, 255, 255, 0.15) 19.77%, rgba(255, 255, 255, 0.126177) 27.81%, rgba(255, 255, 255, 0) 27.82%), linear-gradient(96.09deg, #FFB311 0%, #E69013 100%);
+  box-shadow: inset -2px -3px 0px #CD861A, inset 5px 3px 0px rgba(249, 204, 113, 0.75);
+  border-radius: 16px;
+  margin-top: -7px;
+  color: #ffffff;
+  font-family: robo-bold;
+  font-size: 1.6875em;
+  letter-spacing: -2%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.ten_search {
+  position: absolute;
+  margin-top: -84px;
+  margin-left: -111px;
+}
+
+.ten1_search {
+  position: absolute;
+  margin-top: 78px;
+  margin-left: 97px;
+}
+
+.loza {
+  position: absolute;
+  margin-top: -23px;
+  margin-left: -50px;
+}
+
+.losa_prav {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -211px;
+}
+
+.losa {
+  position: absolute;
+  margin-left: 227px;
+  margin-top: -8px;
+}
+
+.vibor {
+  background-color: #160D3B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 146px;
+  flex-direction: column;
+}
+
+.looking {
+  color: #C039A1;
+  font-family: robo-semi;
+  font-size: 1em;
+  margin-top: 11px;
+  letter-spacing: -2%;
+}
+
+.most {
+  font-family: fright;
+  font-size: 4.5em;
+  margin-top: 10px;
+  color: #ffffff;
+  letter-spacing: -2%;
+}
+
+.any {
+  align-items: center;
+  color: #DBDEFF;
+  font-family: robo-reg;
+  font-size: 1em;
+  margin-top: 9px;
+  letter-spacing: -2%;
+}
+
+.vibor_img {
+  display: flex;
+  margin-left: -17px;
+  width: 1933px;
+  height: 600px;
+  background-color: #160D3B;
+}
+
+.ghost {
+  width: 330px;
+  height: 536px;
+  margin-top: 80px;
+  margin-left: 7px;
+}
+
+.zombie {
+  width: 325px;
+  margin-top: 80px;
+  height: 536px;
+  margin-left: 30px;
+}
+
+.dracula {
+  width: 203px;
+  margin-top: 90px;
+  margin-left: 110px;
+  height: 525px;
+  background-color: #0B071E;
+  border-radius: 48px;
+  position: relative;
+}
+
+.mummy {
+  width: 255px;
+  margin-top: 80px;
+  margin-left: 84px;
+  height: 536px;
+}
+
+.ghost_img {
+  height: 330px;
+  width: 181px;
+  margin-left: 83px;
+}
+
+.zombie_img {
+  height: 330px;
+  width: 202px;
+  margin-left: 73px;
+}
+
+.dracula_img {
+  height: 330.5px;
+  width: 298.5px;
+  margin-left: -48px;
+  position: absolute;
+  margin-top: -10px;
+}
+
+.show {
+  border: 2px solid #164975;
+  border-radius: 16px;
+  background: none;
+  color: #DBDEFF;
+  font-size: 1em;
+  font-family: robo-bold;
+  width: 145px;
+  height: 51px;
+  margin-left: 27px;
+  margin-top: 13px;
+  text-decoration: none;
+  letter-spacing: -2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show:hover {
+  cursor: pointer;
+}
+
+.mummy_img {
+  height: 330px;
+  width: 159.5px;
+  margin-left: 94px;
+}
+
+.ghost_txt {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 3em;
+  margin-top: 59px;
+  margin-left: 130px;
+  letter-spacing: -2%;
+}
+
+.zombie_txt {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 3em;
+  letter-spacing: -2%;
+  margin-top: 58px;
+  margin-left: 89px;
+}
+
+.dracula_txt {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 3em;
+  letter-spacing: -2%;
+  margin-top: 373px;
+  margin-left: 42px;
+}
+
+.mummy_txt {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 3em;
+  letter-spacing: -2%;
+  margin-top: 59px;
+  margin-left: 118px;
+}
+
+.houses {
+  font-family: robo-reg;
+  font-size: 1.125em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-left: 143px;
+  margin-top: 10px;
+}
+
+.house {
+  position: absolute;
+  margin-left: 111px;
+  margin-top: -26px;
+}
+
+.graves {
+  font-family: robo-reg;
+  font-size: 1.125em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-left: 151px;
+  margin-top: 10px;
+}
+
+.grave_img {
+  position: absolute;
+  margin-left: 117px;
+  margin-top: -25px;
+}
+
+.coffins {
+  font-family: robo-reg;
+  font-size: 1.125em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-left: 144px;
+  margin-top: 10px;
+}
+
+.want {
+  font-family: robo-reg;
+  color: #AAA9CE;
+  font-size: 1em;
+  letter-spacing: -2%;
+  margin-top: 99px;
+}
+
+.vhod2 {
+  margin-top: 30px;
+  margin-left: -11px;
+}
+
+.video {
+  background-color: #160D3B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video1 {
+  width: 1231px;
+  height: 612px;
+  background-color: #0B071E;
+  border-radius: 56px;
+  margin-top: 150px;
+  display: flex;
+}
+
+.video_txt {
+  width: 507px;
+  height: 612px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ten_death {
+  position: absolute;
+  margin-left: 384px;
+}
+
+.video_img {
+  width: 724px;
+  height: 547px;
+  display: flex;
+  align-items: center;
+}
+
+.video_img:hover {
+  cursor: pointer;
+}
+
+.log1 {
+  width: 136px;
+  height: 75px;
+  margin-top: 73px;
+}
+
+.d_txt {
+  font-family: fright;
+  font-size: 4em;
+  letter-spacing: -2%;
+  color: #ffffff;
+  margin-left: 7px;
+  margin-top: 20px;
+}
+
+.d2_txt {
+  font-family: fright;
+  font-size: 4em;
+  letter-spacing: -2%;
+  color: #ffffff;
+  margin-top: -17px;
+}
+
+.of {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 1em;
+  letter-spacing: -2%;
+  margin-top: 12px;
+}
+
+.vhod3 {
+  margin-top: 71px;
+  margin-left: -5px;
+}
+
+.learn {
+  border: 2px solid #164975;
+  border-radius: 21px;
+  background: none;
+  color: #DBDEFF;
+  font-size: 1em;
+  letter-spacing: -2%;
+  font-family: robo-bold;
+  width: 133px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 11px;
+  margin-top: 70px;
+}
+
+.learn:hover {
+  cursor: pointer;
+}
+
+.knopki {
+  display: flex;
+}
+
+.death {
+  margin-top: 65px;
+  margin-left: -16px;
+}
+
+.death_prav {
+  margin-top: 65px;
+  position: relative;
+}
+
+.play {
+  width: 300px;
+  height: 148px;
+  margin-top: 393px;
+  position: absolute;
+  margin-left: 390px;
+}
+
+.hot {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 2em;
+  letter-spacing: -2%;
+  margin-left: 5px;
+}
+
+.hot_txt {
+  width: 266px;
+  height: 32px;
+  display: flex;
+  margin-top: -3px;
+}
+
+.see {
+  color: #DBDEFF;
+  font-family: robo-reg;
+  font-size: 0.875em;
+  letter-spacing: -2%;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.play_video {
+  width: 180px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+
+.video_play {
+  font-family: robo-bold;
+  color: #E4B02A;
+  font-size: 1.25em;
+  letter-spacing: -2%;
+  margin-left: 8px;
+}
+
+.brick {
+  margin-top: 80px;
+  margin-left: -5px;
+}
+
+.otziv {
+  width: 1920px;
+  height: 1069px;
+  background-color: #160D3B;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 147px;
+}
+
+.look {
+  font-family: robo-semi;
+  font-size: 1em;
+  letter-spacing: -2%;
+  color: #C039A1;
+}
+
+.places {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 4.5em;
+  letter-spacing: -2%;
+  margin-top: 8px;
+}
+
+.horror {
+  font-family: robo-reg;
+  font-size: 1em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-top: 10px;
+}
+
+.otzivi {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  position: relative;
+}
+
+.chamber_div {
+  width: 266px;
+  height: 478px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chamber {
+  width: 330px;
+  height: 542px;
+  background-color: #0B071E;
+  border-radius: 48px;
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+}
+
+.grave {
+  width: 330px;
+  height: 542px;
+  background-color: #0B071E;
+  border-radius: 48px;
+  margin-left: 30px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.dead {
+  width: 330px;
+  height: 542px;
+  background-color: #0B071E;
+  margin-left: 30px;
+  border-radius: 48px;
+  margin-top: -14px;
+  display: flex;
+  justify-content: center;
+}
+
+.zoombi {
+  width: 330px;
+  height: 542px;
+  background-color: #0B071E;
+  margin-left: 30px;
+  border-radius: 48px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.chamber_img {
+  margin-top: 32px;
+  width: 266px;
+  height: 266px;
+}
+
+.ten_chamber {
+  position: absolute;
+  margin-left: 31px;
+  margin-top: -3px;
+}
+
+.ten_chamber_right {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: -25px;
+}
+
+.chamber_txt {
+  font-family: fright;
+  font-size: 2.5em;
+  letter-spacing: -2%;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.visitors {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-top: 32px;
+  letter-spacing: -2%;
+}
+
+.chamber_txt_t {
+  width: 266px;
+  height: 80px;
+  margin-top: 37px;
+}
+
+.vis {
+  margin-left: -5px;
+  margin-top: 2px;
+}
+
+.tikva_left {
+  position: absolute;
+  margin-top: -639px;
+  margin-left: -19px;
+}
+
+.tikva_right {
+  position: absolute;
+  margin-left: 282px;
+  margin-top: 69px;
+  z-index: 1;
+}
+
+.reviews {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-top: 32px;
+  letter-spacing: -2%;
+  margin-left: 12px;
+}
+
+.visi {
+  width: 170px;
+  height: 59px;
+}
+
+.revi {
+  width: 96px;
+  height: 59px;
+}
+
+.visi_revi {
+  display: flex;
+}
+
+.five_star {
+  margin-top: 9px;
+}
+
+.reviews1 {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  color: #DBDEFF;
+  margin-top: 32px;
+  letter-spacing: -2%;
+  margin-left: 10px;
+}
+
+.reviews2 {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  color: #DBDEFF;
+  margin-top: 32px;
+  letter-spacing: -2%;
+  margin-left: 9px;
+}
+
+.four_star {
+  margin-top: 8px;
+}
+
+.tochki {
+  margin-top: 64px;
+}
+
+.sponsors {
+  width: 1920px;
+  height: 194px;
+  background-color: #160D3B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sponsors_txt {
+  color: #DBDEFF;
+  font-family: robo-reg;
+  font-size: 1.25em;
+  letter-spacing: -2%;
+  margin-top: 2px;
+}
+
+.sponsors_img {
+  width: 896px;
+  height: 136px;
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  margin-left: 285px;
+}
+
+.adda {
+  margin-top: 24px;
+  margin-left: 13px;
+  width: 107.5px;
+  height: 88.08px;
+}
+
+.dexters {
+  margin-top: 44px;
+  margin-left: 69px;
+  width: 135.98px;
+  height: 45.94px;
+}
+
+.ghostbusters {
+  margin-top: 17px;
+  margin-left: 69px;
+  width: 102.01px;
+  height: 101.46px;
+}
+
+.hotel {
+  margin-top: 36px;
+  margin-left: 73px;
+  width: 136px;
+  height: 61.52px;
+}
+
+.happy_tree {
+  margin-left: 92px;
+  width: 58.91px;
+  height: 136px;
+}
+
+.pusto {
+  height: 175px;
+  background-color: #160D3B;
+}
+
+.kino {
+  width: 1920px;
+  height: 732px;
+  background-color: #160D3B;
+  display: flex;
+  align-items: center;
+}
+
+.zal2 {
+  margin-left: 30px;
+}
+
+.kino_txt {
+  width: 480px;
+  height: 381px;
+  margin-left: 52px;
+  margin-top: -98px;
+}
+
+.lok {
+  font-family: robo-semi;
+  letter-spacing: -2%;
+  color: #C039A1;
+  font-size: 1em;
+}
+
+.night {
+  font-family: fright;
+  color: #ffffff;
+  letter-spacing: -2%;
+  font-size: 6em;
+  line-height: 1;
+  margin-top: 16px;
+}
+
+.any_horror {
+  font-family: robo-reg;
+  letter-spacing: -2%;
+  font-size: 1em;
+  color: #DBDEFF;
+  margin-top: 21px;
+}
+
+.knopki1 {
+  display: flex;
+  margin-top: -31px;
+  margin-left: -7px;
+}
+
+.pusto1 {
+  height: 120px;
+  background-color: #160D3B;
+}
+
+.sponsors_left {
+  justify-content: flex-start;
+  width: 208px;
+  height: 120px;
+}
+
+.poloski {
+  display: flex;
+  width: 1920px;
+  height: 194px;
+}
+
+.sponsors_right {
+  justify-content: flex-end;
+  width: 351px;
+  height: 103px;
+  margin-left: 180px;
+  margin-top: 56px;
+}
+
+.polosochki {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.polos_left {
+  width: 271px;
+  height: 103px;
+  margin-top: -259px;
+}
+
+.arrow_left {
+  width: 32px;
+  height: 32px;
+  margin-top: -119px;
+  margin-left: -56px;
+}
+
+.polosochki_right {
+  display: flex;
+  align-items: center;
+  margin-left: 17px;
+  margin-top: 111px;
+  flex-direction: column;
+}
+
+.polos_right {
+  margin-top: 36px;
+  margin-left: 33px;
+}
+
+.arrow_right {
+  margin-top: 118px;
+  margin-left: -123px;
+}
+
+.arrow_left:hover {
+  cursor: pointer;
+}
+
+.arrow_right:hover {
+  cursor: pointer;
+}
+
+.strah {
+  width: 1920px;
+  height: 1093px;
+  background-color: #160D3B;
+  display: flex;
+  justify-content: center;
+}
+
+.fon {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.thrill {
+  position: absolute;
+  font-family: robo-semi;
+  font-size: 1em;
+  color: #C039A1;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  width: 638px;
+  height: 242px;
+  position: absolute;
+  letter-spacing: -2%;
+  margin-top: 76px;
+}
+
+.choose {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 4.5em;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -2%;
+  position: absolute;
+  margin-top: 40px;
+  line-height: 1;
+}
+
+.or_have {
+  font-family: robo-reg;
+  font-size: 1em;
+  color: #DBDEFF;
+  text-align: center;
+  position: absolute;
+  letter-spacing: -2%;
+  margin-left: 8px;
+}
+
+.or_have_txt {
+  width: 340px;
+  height: 42px;
+  position: absolute;
+  margin-top: 204px;
+}
+
+.grobi {
+  width: 894.5px;
+  height: 400.5px;
+  position: absolute;
+  margin-top: 317px;
+  display: flex;
+  align-items: end;
+  margin-left: 44px;
+}
+
+.smell {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.scared_grob {
+  -o-object-fit: none;
+     object-fit: none;
+  margin-left: 118px;
+}
+
+.deadly {
+  -o-object-fit: none;
+     object-fit: none;
+  margin-left: 99.5px;
+}
+
+.polzunok {
+  position: absolute;
+  margin-top: 790px;
+  width: 695px;
+  height: 29px;
+  border-radius: 99px;
+  background-color: #0B071E;
+  display: flex;
+}
+
+.pink-slider {
+  -webkit-appearance: none;
+  width: 360px;
+  background: transparent;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.pink-slider::-webkit-slider-runnable-track {
+  height: 15px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  background: linear-gradient(96.09deg, #EC56C9 0%, #9F2A7E 100%);
+  box-shadow: 0px 5px 50px rgba(192, 57, 161, 0.25), inset -2px -3px 0px #802366, inset 3px 2px 0px #E67ACD;
+}
+
+.pink-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  border: 6px solid #d63384;
+  border-radius: 50%;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.linee {
+  width: 663px;
+  height: 23px;
+  display: flex;
+  margin-top: 844px;
+  position: absolute;
+}
+
+.line {
+  justify-content: flex-start;
+}
+
+.line_zir {
+  margin-left: 330px;
+}
+
+.line1 {
+  margin-left: 329px;
+}
+
+.texti {
+  width: 930px;
+  height: 72px;
+  position: absolute;
+  display: flex;
+  margin-top: 889px;
+}
+
+.smell_txt {
+  width: 266px;
+  height: 72px;
+}
+
+.smell_l {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+}
+
+.leo {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 0.875em;
+  text-align: center;
+  letter-spacing: -2%;
+}
+
+.smell_txt1 {
+  width: 266px;
+  height: 72px;
+  margin-left: 66px;
+}
+
+.kn {
+  height: 131px;
+  width: 1920px;
+  background-color: #160D3B;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -4px;
+}
+
+.vhod4 {
+  margin-top: 33px;
+  margin-left: -13px;
+}
+
+.shop {
+  width: 1921px;
+  height: 707px;
+  background-color: #160D3B;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+}
+
+.sclanki {
+  width: 1411px;
+  height: 602px;
+  background-color: #0B071E;
+  border-radius: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.sclanki_txt {
+  width: 413px;
+  height: 419px;
+  margin-left: 92px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ten_elixir_verh {
+  position: absolute;
+  margin-left: 516px;
+  margin-top: -100px;
+}
+
+.want1 {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: -2%;
+  line-height: 1;
+  margin-top: 26px;
+}
+
+.go {
+  text-align: center;
+  letter-spacing: -2%;
+  font-family: robo-reg;
+  color: #DBDEFF;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.go_txt {
+  width: 279px;
+  height: 42px;
+}
+
+.check {
+  border: 2px solid #164975;
+  border-radius: 16px;
+  background: none;
+  color: #DBDEFF;
+  font-size: 1em;
+  letter-spacing: -2%;
+  font-family: robo-bold;
+  width: 175px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 31px;
+  margin-top: -13px;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+
+.elix_verh {
+  display: flex;
+  margin-top: -241px;
+  margin-left: 184px;
+}
+
+.elixir {
+  width: 457px;
+  height: 202px;
+  background-color: #110B2D;
+  border-radius: 48px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ten_elixir {
+  position: absolute;
+  margin-top: -26px;
+  margin-left: -28px;
+}
+
+.ten_elixir_niz {
+  position: absolute;
+  margin-left: 193px;
+  margin-top: 83px;
+}
+
+.elixir1 {
+  width: 457px;
+  height: 202px;
+  background-color: #110B2D;
+  border-radius: 48px;
+  position: absolute;
+  margin-left: 489px;
+  display: flex;
+  align-items: center;
+}
+
+.elix_niz {
+  display: flex;
+  margin-top: 226px;
+  margin-left: -605px;
+}
+
+.elixir2 {
+  width: 120px;
+  height: 202px;
+  background-color: #110B2D;
+  position: absolute;
+  margin-left: 974px;
+  border-radius: 48px 0 0 48px;
+  display: flex;
+  align-items: center;
+}
+
+.fire {
+  margin-left: 24px;
+}
+
+.elixir1_1 {
+  width: 457px;
+  height: 202px;
+  background-color: #110B2D;
+  border-radius: 48px;
+  position: absolute;
+  margin-left: 487px;
+  display: flex;
+  align-items: center;
+}
+
+.elix_txt {
+  width: 249;
+  height: 154px;
+  margin-left: 25px;
+}
+
+.fire_txt {
+  font-family: fright;
+  color: #ffffff;
+  font-size: 2.5em;
+  letter-spacing: -2%;
+}
+
+.ornare {
+  font-family: robo-reg;
+  color: #DBDEFF;
+  letter-spacing: -2%;
+  font-size: 0.875em;
+  margin-top: 1px;
+}
+
+.chena {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.doll {
+  font-family: robo-semi;
+  font-size: 1.5em;
+  letter-spacing: -2%;
+  color: #DC59C0;
+}
+
+.el {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  color: #DBDEFF;
+  letter-spacing: -2%;
+  margin-left: 8px;
+}
+
+.pokupka {
+  margin-left: 103px;
+}
+
+.pok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  color: #DBDEFF;
+  font-size: 1em;
+  font-family: robo-bold;
+  background-color: #EC56C9;
+  margin-left: 11px;
+  position: relative;
+  background: linear-gradient(96.09deg, #EC56C9 0%, #9F2A7E 100%);
+  box-shadow: 0px 5px 50px rgba(192, 57, 161, 0.25), inset -2px -3px 0px #802366, inset 3px 2px 0px #E67ACD;
+}
+
+.tenn {
+  position: absolute;
+  margin-right: 15px;
+  margin-bottom: 37px;
+}
+
+.tenq {
+  position: absolute;
+  margin-top: 40px;
+}
+
+.pok:hover {
+  cursor: pointer;
+}
+
+.pokupka_p {
+  margin-left: 90px;
+}
+
+.pokupka_d {
+  margin-left: 85px;
+}
+
+.kir {
+  position: absolute;
+  margin-top: 508px;
+}
+
+.testimonials {
+  background-color: #160D3B;
+  width: 1920px;
+  height: 829px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.test_priz {
+  width: 1231.75px;
+  height: 676px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials_txt {
+  width: 545.75px;
+  height: 676px;
+  margin-left: 55.5px;
+  display: flex;
+  align-items: end;
+  margin-top: -5px;
+  flex-direction: column;
+}
+
+.test_txt {
+  width: 480px;
+  height: 242px;
+}
+
+.testimonial {
+  font-family: robo-semi;
+  font-size: 1em;
+  color: #C039A1;
+  letter-spacing: -2%;
+}
+
+.travelers {
+  font-family: fright;
+  font-size: 4.5em;
+  color: #ffffff;
+  letter-spacing: -2%;
+  line-height: 1;
+  margin-top: 17px;
+}
+
+.scared {
+  font-family: robo-reg;
+  font-size: 1em;
+  color: #DBDEFF;
+  margin-top: 21px;
+  margin-left: -1px;
+  letter-spacing: -2%;
+}
+
+.indiana_txt {
+  width: 457px;
+  height: 197px;
+  border-radius: 0 48px 48px 48px;
+  background-color: #110B2D;
+  margin-top: 46px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.triangle {
+  position: absolute;
+  margin-left: -475px;
+}
+
+.viverra {
+  font-family: robo-reg;
+  font-size: 1em;
+  color: #DBDEFF;
+  letter-spacing: -2%;
+  line-height: 1.5;
+}
+
+.viverra_txt {
+  width: 393px;
+  height: 72px;
+  margin-top: 26px;
+}
+
+.polzov {
+  width: 150px;
+  height: 43px;
+  display: flex;
+  margin-top: 21px;
+  margin-right: 253px;
+}
+
+.traveler {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  color: #DBDEFF;
+  letter-spacing: -2%;
+  margin-left: 11px;
+  margin-top: 3px;
+}
+
+.zv {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  margin-left: 297px;
+  margin-top: -45px;
+}
+
+.kolich {
+  font-family: robo-reg;
+  font-size: 0.875em;
+  color: #DBDEFF;
+  letter-spacing: -2%;
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+
+.indiana_txt1 {
+  width: 457px;
+  height: 197px;
+  border-radius: 0 48px 48px 48px;
+  background-color: #110B2D;
+  margin-top: 26px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 63px;
+}
+
+.polos_indiana {
+  position: absolute;
+  margin-right: 280px;
+}
+
+.polos_indiana_niz {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 29px;
+}
+
+.cnopka {
+  width: 1920px;
+  height: 340px;
+  background-color: #160D3B;
+  display: flex;
+  justify-content: center;
+}
+
+.vhod5 {
+  margin-top: 80px;
+  margin-left: -11px;
+}
+
+.footer {
+  background-color: #0B071E;
+  width: 1920px;
+  height: 808px;
+}
+
+.loza_footer {
+  position: absolute;
+  margin-left: 458px;
+  margin-top: -50px;
+}
+
+.teni {
+  position: absolute;
+  margin-left: 929px;
+  margin-top: -10px;
+}
+
+.pumpkins {
+  position: absolute;
+  margin-left: 1262px;
+  margin-top: -57px;
+}
+
+.logo_footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+}
+
+.footer_txt {
+  width: 927px;
+  height: 233px;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-left: 495px;
+}
+
+.about {
+  width: 210px;
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_txt {
+  font-family: fright;
+  font-size: 2em;
+  color: #ffffff;
+  letter-spacing: -2%;
+}
+
+.about_us {
+  font-family: robo-bold;
+  font-size: 1em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.press {
+  font-family: robo-bold;
+  font-size: 1em;
+  letter-spacing: -2%;
+  color: #DBDEFF;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.about1 {
+  width: 210px;
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 29px;
+}
+
+.divider {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.divi {
+  display: flex;
+  justify-content: center;
+  margin-top: 86px;
+}
+
+.knop_niz {
+  display: flex;
+  justify-content: center;
+  margin-top: 71px;
+  margin-right: 46px;
+}
+
+.sign_niz {
+  border: 2px solid #164975;
+  border-radius: 21px;
+  background: none;
+  color: #DBDEFF;
+  font-size: 1em;
+  letter-spacing: -2%;
+  font-family: robo-bold;
+  width: 182px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 44px;
+  text-decoration: none;
+}
+
+.sign_niz:hover {
+  cursor: pointer;
+}
+
+/* ========== АДАПТИВ ПОД IPHONE 12 (390PX) ========== */
+@media screen and (max-width: 390px) {
+  /* Сброс и основные настройки */
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #160D3B;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Шапка */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 16px;
+    height: auto;
+    background-color: #160D3B;
+    position: relative;
+  }
+  .lef {
+    margin: 0;
+    width: auto;
+    order: 1;
+  }
+  .navi, .contact {
+    display: none; /* Скрываем текстовые ссылки */
+  }
+  .logo {
+    width: 120px;
+    height: auto;
+    margin: 0;
+    order: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .log {
+    width: 100%;
+    height: auto;
+  }
+  .prav {
+    margin: 0;
+    width: auto;
+    order: 3;
+    display: flex;
+    gap: 8px;
+  }
+  .sign {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+    font-size: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #164975;
+    background: none;
+  }
+  .sign .vhod {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+  .become {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+    font-size: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(96.09deg, #EC56C9 0%, #9F2A7E 100%);
+    box-shadow: 0px 5px 50px rgba(192, 57, 161, 0.25), inset -2px -3px 0px #802366, inset 3px 2px 0px #E67ACD;
+  }
+  .become .user {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+  .ten, .ten2, .tenn, .tenq {
+    display: none; /* Скрываем декоративные тени */
+  }
+  /* Блок с замком */
+  .zamok {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  /* Карточки old и cellar */
+  .old, .cellar {
+    position: relative;
+    width: calc(100% - 32px);
+    margin: 20px auto;
+    height: auto;
+    min-height: 180px;
+    padding: 20px;
+    background-color: #0B071E;
+    border-radius: 30px;
+    left: auto;
+    top: auto;
+    box-sizing: border-box;
+  }
+  .old {
+    margin-top: -120px; /* Наезд на замок */
+    z-index: 2;
+  }
+  .cellar {
+    margin-top: 20px;
+  }
+  .old_img {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 0 0;
+    float: left;
+  }
+  /* Сбрасываем абсолютное позиционирование текста */
+  .txt, .txt4, .txt1, .txt5, .txt2, .txt6, .txt3, .txt7 {
+    position: static;
+    margin: 0 0 5px 0;
+    width: auto;
+  }
+  .txt, .txt4 {
+    font-size: 20px;
+    width: calc(100% - 115px);
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .txt1, .txt5 {
+    font-size: 11px;
+    white-space: normal;
+    width: calc(100% - 115px);
+    display: inline-block;
+    line-height: 1.3;
+  }
+  .txt2, .txt6 {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .txt3, .txt7 {
+    font-size: 12px;
+    display: inline-block;
+  }
+  /* Звезды и оценка */
+  .star, .star1 {
+    position: static;
+    margin: 10px 0 0 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    background-color: #BDC1FF;
+    border-radius: 99px;
+  }
+  .ocenka, .ocenka1 {
+    margin: 0 0 0 5px;
+    color: #211357;
+    font-size: 12px;
+  }
+  .zvezda_old, .zvezda_cellar {
+    width: 16px;
+    height: 16px;
+  }
+  .strelka1, .strelka2,
+  .ten_old, .ten_old_niz, .ten_cellar_niz {
+    display: none;
+  }
+  /* Блок поиска */
+  .search {
+    position: relative;
+    width: calc(100% - 32px);
+    margin: 30px auto;
+    height: auto;
+    flex-direction: column;
+    border: 5px solid #654AFF;
+    border-radius: 30px;
+    box-sizing: border-box;
+    left: auto;
+    top: auto;
+  }
+  .left {
+    width: 100%;
+    height: auto;
+    border-radius: 24px 24px 0 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #0B071E;
+  }
+  .right {
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 24px 24px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0B071E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .verh {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 0;
+  }
+  .search_verh, .search_verh_date, .search_verh_peop, .search_verh_lev {
+    margin: 0;
+    font-size: 12px;
+    color: #BDC1FF;
+  }
+  .niz {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 0;
+  }
+  .search_niz, .search_niz_date, .people {
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    margin: 0 0 10px 0;
+    padding-left: 45px;
+    background-position: 15px center;
+    background-size: 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+  .people {
+    padding-left: 15px;
+    width: 100%;
+  }
+  .level {
+    width: 100%;
+    margin: 5px 0 0 0;
+    justify-content: flex-start;
+  }
+  .mish, .prizrak {
+    width: 40px;
+    height: 40px;
+  }
+  .tikva_cras {
+    width: 45px;
+    height: 45px;
+    margin-left: 4px;
+  }
+  .tikva1 {
+    width: 30px;
+    height: 30px;
+  }
+  .button {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+  }
+  /* Скрываем декоративные элементы поиска */
+  .loza, .losa_prav, .losa, .kirpich, .tikva,
+  .ten_loc, .ten_level, .ten_serch, .ten_search,
+  .ten1_search, .bol_ten_search {
+    display: none;
+  }
+  /* Секция "MOST POPULAR LESSORS" */
+  .vibor {
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .looking {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .most {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.2;
+    padding: 0 10px;
+  }
+  .any {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+    padding: 0 10px;
+    margin: 15px 0;
+  }
+  .vibor_img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+  }
+  .ghost, .zombie, .dracula, .mummy {
+    width: 160px;
+    margin: 0;
+    padding: 15px;
+    height: auto;
+    background-color: #0B071E;
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  .ghost_img, .zombie_img, .mummy_img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .dracula_img {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .ghost_txt, .zombie_txt, .dracula_txt, .mummy_txt {
+    font-size: 24px;
+    margin: 15px 0 5px;
+    text-align: center;
+  }
+  .houses, .graves, .coffins {
+    font-size: 14px;
+    margin: 5px 0 0;
+    text-align: center;
+    margin-left: 0;
+  }
+  .show {
+    margin: 15px auto 0;
+    width: 130px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .house, .grave_img {
+    display: none;
+  }
+  .polosochki, .polosochki_right {
+    display: none;
+  }
+  .want {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+    padding: 0 16px;
+    margin: 20px 0;
+  }
+  .vhod2 {
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: center;
+  }
+  /* Видео блок */
+  .video {
+    padding: 20px 0;
+  }
+  .video1 {
+    width: calc(100% - 32px);
+    height: auto;
+    margin: 20px auto;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #0B071E;
+  }
+  .video_txt {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  .log1 {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .d_txt, .d2_txt {
+    font-size: 36px;
+    text-align: center;
+    margin: 5px 0;
+  }
+  .of {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0;
+  }
+  .knopki {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  .vhod3 {
+    margin: 0;
+  }
+  .learn {
+    margin: 0;
+    width: 133px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .video_img {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    position: relative;
+  }
+  .death, .death_prav {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .play {
+    position: relative;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    left: auto;
+    top: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .hot_txt {
+    width: 100%;
+    justify-content: center;
+  }
+  .hot {
+    font-size: 24px;
+    text-align: center;
+  }
+  .see {
+    font-size: 12px;
+    text-align: center;
+    white-space: normal;
+    margin: 10px 0;
+  }
+  .play_video {
+    margin: 10px auto;
+    justify-content: center;
+  }
+  .ten_death, .brick {
+    display: none;
+  }
+  /* Отзывы */
+  .otziv {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+  }
+  .look {
+    font-size: 14px;
+    text-align: center;
+  }
+  .places {
+    font-size: 32px;
+    text-align: center;
+    padding: 0 16px;
+    line-height: 1.2;
+  }
+  .horror {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+    padding: 0 20px;
+    margin: 15px 0;
+  }
+  .otzivi {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .chamber, .grave, .dead, .zoombi {
+    width: calc(100% - 32px);
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .chamber_div {
+    width: 100%;
+    height: auto;
+  }
+  .chamber_img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  .chamber_txt_t {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+  }
+  .chamber_txt {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  .visi_revi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  .visi, .revi {
+    width: auto;
+    text-align: center;
+  }
+  .visitors, .reviews, .reviews1, .reviews2 {
+    font-size: 12px;
+    margin: 0 0 5px;
+  }
+  .vis, .five_star, .four_star {
+    width: 80px;
+    height: auto;
+  }
+  .tikva_left, .tikva_right,
+  .ten_chamber, .ten_chamber_right {
+    display: none;
+  }
+  .tochki {
+    width: 80px;
+    height: auto;
+    margin: 30px auto 0;
+    display: block;
+  }
+  /* Спонсоры */
+  .sponsors {
+    width: 100%;
+    height: auto;
+    padding: 30px 16px;
+    box-sizing: border-box;
+  }
+  .sponsors_txt {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .poloski {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .sponsors_img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0;
+  }
+  .adda, .dexters, .ghostbusters, .hotel, .happy_tree {
+    margin: 0;
+    width: 80px;
+    height: auto;
+  }
+  .sponsors_left, .sponsors_right {
+    display: none;
+  }
+  .pusto, .pusto1 {
+    display: none;
+  }
+  /* Кино блок */
+  .kino {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 30px 16px;
+    box-sizing: border-box;
+  }
+  .kino img {
+    width: 100%;
+    height: auto;
+  }
+  .zal2 {
+    margin: 15px 0;
+  }
+  .kino_txt {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .lok {
+    font-size: 14px;
+    text-align: center;
+  }
+  .night {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+  .any_horror {
+    font-size: 14px;
+    white-space: normal;
+    margin: 15px 0;
+  }
+  .knopki1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0 0;
+  }
+  /* Блок страха */
+  .strah {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 900px;
+  }
+  .fon {
+    width: 100%;
+    height: auto;
+    min-height: 900px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+  }
+  .text {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .thrill {
+    position: static;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .choose {
+    position: static;
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+  }
+  .or_have_txt {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  .or_have {
+    position: static;
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+    margin-left: 0;
+  }
+  .grobi {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+  }
+  .smell, .scared_grob, .deadly {
+    width: 80px;
+    height: auto;
+    margin: 0;
+  }
+  .polzunok {
+    position: static;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .pink-slider {
+    width: 100%;
+    max-width: 320px;
+    margin: 0;
+  }
+  .linee {
+    position: static;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .line, .line_zir, .line1 {
+    width: 30%;
+    height: auto;
+    margin: 0;
+  }
+  .texti {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .smell_txt, .smell_txt1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .smell_l {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .leo {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .kn {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .vhod4 {
+    margin: 0;
+  }
+  /* Магазин */
+  .shop {
+    width: 100%;
+    height: auto;
+    padding: 30px 16px;
+    box-sizing: border-box;
+  }
+  .sclanki {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .sclanki_txt {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+  }
+  .logo_scl {
+    width: 120px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .want1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 15px 0;
+  }
+  .go {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .check {
+    margin: 20px auto 0;
+  }
+  .elix_verh, .elix_niz {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 15px;
+    gap: 15px;
+  }
+  .elixir, .elixir1, .elixir1_1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .elixir2 {
+    display: none;
+  }
+  .fire {
+    width: 60px;
+    height: 60px;
+    margin: 0 15px 0 0;
+  }
+  .elix_txt {
+    width: calc(100% - 75px);
+    margin: 0;
+  }
+  .fire_txt {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .ornare {
+    font-size: 11px;
+    white-space: normal;
+    line-height: 1.4;
+  }
+  .chena {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .doll {
+    font-size: 20px;
+  }
+  .el {
+    font-size: 12px;
+  }
+  .pokupka, .pokupka_p, .pokupka_d {
+    margin: 10px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .pok {
+    width: 45px;
+    height: 45px;
+    margin: 0;
+  }
+  .pok img {
+    width: 20px;
+    height: 20px;
+  }
+  .ten_elixir_verh, .ten_elixir, .ten_elixir_niz, .kir {
+    display: none;
+  }
+  /* Testimonials */
+  .testimonials {
+    width: 100%;
+    height: auto;
+    padding: 40px 16px;
+    box-sizing: border-box;
+  }
+  .test_priz {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .test_priz > img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 30px;
+    display: block;
+  }
+  .testimonials_txt {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    align-items: center;
+  }
+  .test_txt {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .testimonial {
+    font-size: 14px;
+    text-align: center;
+  }
+  .travelers {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+  .scared {
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+  }
+  .indiana_txt, .indiana_txt1 {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 30px 30px 30px;
+  }
+  .viverra_txt {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+  }
+  .viverra {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .polzov {
+    margin: 15px auto 0;
+    width: 100%;
+    justify-content: center;
+  }
+  .traveler {
+    font-size: 12px;
+  }
+  .zv {
+    margin: 10px auto 0;
+    align-items: center;
+  }
+  .kolich {
+    font-size: 12px;
+  }
+  .triangle, .polos_indiana, .polos_indiana_niz {
+    display: none;
+  }
+  .cnopka {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .vhod5 {
+    margin: 0;
+  }
+  /* Футер */
+  .footer {
+    width: 100%;
+    height: auto;
+    padding: 40px 16px 30px;
+    box-sizing: border-box;
+    background-color: #0B071E;
+    position: relative;
+  }
+  .loza_footer, .teni, .pumpkins {
+    display: none;
+  }
+  .logo_footer {
+    padding-top: 20px;
+  }
+  .logo_footer img {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .footer_txt {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    gap: 30px;
+    align-items: center;
+  }
+  .about, .about1 {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 0;
+    align-items: center;
+  }
+  .about_txt {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .about_us, .press {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .divi {
+    margin: 30px 0;
+  }
+  .divider {
+    width: 100%;
+    height: auto;
+  }
+  .knop_niz {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0 0;
+  }
+  .sign_niz {
+    width: 150px;
+    height: 45px;
+    margin: 0;
+    font-size: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #164975;
+    background: none;
+  }
+  .sign_niz .vhod {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+  .knop_niz .become {
+    width: 150px;
+    height: 45px;
+    margin: 0;
+    font-size: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .knop_niz .become .user {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+  /* Коррекция white-space */
+  pre {
+    font-family: inherit;
+    white-space: normal;
+  }
+}/*# sourceMappingURL=style_landy.css.map */
